@@ -12,11 +12,11 @@
 #include <PubSubClient.h>
 
 // 🟢 Wi-Fi credentials
-const char* ssid = "Airtel_kart_7110";       // Replace with your Wi-Fi SSID
-const char* password = "Air@1234";           // Replace with your Wi-Fi password
+const char* ssid = "xxxxxxx";       // Replace with your Wi-Fi SSID
+const char* password = "xxxxxxx";           // Replace with your Wi-Fi password
 
 // 🟢 MQTT Broker (Use your PC or Cloud broker IP/Domain)
-const char* mqtt_server = "192.168.1.100";   // Replace with your broker IP (from 'ipconfig')
+const char* mqtt_server = "192.168.1.xxx";   // Replace with your broker IP (from 'ipconfig')
 
 // 🧠 MQTT topics
 const char* publishTopic = "esp32/data";
